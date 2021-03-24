@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Boletín virtual</title>
+</head>
+<body>
+    <div class="contenedor_boletin">
+        <h1 class="encabezado__boletin">Consultá tu promedio</h1>
+        <div id="bienvenida">
+
+        </div>
+        <div class="contenedor_formulario">
+            <form action="">
+            <label>Nombre:</label>
+              <input type="text" class="input" name="nombre" id="nombre" placeholder="Juan"> <br>
+              <label>Apellido:</label>
+              <input type="text" class="input" name="apellido" placeholder="Perez"> <br> 
+              <label for="">Materia:</label>
+              <input type="text" class="input" id="materia" name="materia" placeholder="Ingrese el nombre de la materia"> <br> 
+              <input type="text" class="input" id="nota1" name="nota1" placeholder="Ingrese la nota del primer parcial"> <br>
+              <input type="text" class="input" id="nota2" name="nota2" placeholder="Ingrese la nota del segundo parcial"> <br> 
+              <input type="submit" value="Calcular promedio" id="enviarDatos">
+              <input type="button" class='limpiar' value="Limpiar formulario"> <br>
+            </form>
+        </div>
+        <div id="resultado">
+
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script defer src="./javascript/script3.js"></script>   
+</body>
+</html>
