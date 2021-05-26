@@ -1,22 +1,3 @@
-/*var resultadoNota = 0
-let boletines = []
-
-function Boletin( materia, nota1, nota2){
-    this.materia = materia
-    this.nota1 = nota1
-    this.nota2 = nota2
-    this.promedio = function(){
-        let resultado = (this.nota1 + this.nota2)/2;
-        
-        resultadoNota = resultado;  
-    }
-}
-
-boletines.push(boletin1)
-console.log(boletines)
-
-boletin1.promedio()
-*/
 
 let inputValues = {
     nombre: "",
